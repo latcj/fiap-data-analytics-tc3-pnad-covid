@@ -1,0 +1,6 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.env
+application_default_credentials.json
+*service-account*.json

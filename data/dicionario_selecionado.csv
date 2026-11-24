@@ -1,0 +1,132 @@
+Id,Seletor,Variavel,Codigo Variavel,Descricao Variavel,Cod Referencia,Descricao Referencia,Categoria
+1,OK,Ano,A0,Ano de referência,0,N/A,Parte 1 - Identificação e Controle
+2,OK,UF,A0,Unidade da Federação,11,Rondônia,Parte 1 - Identificação e Controle
+3,OK,UF,A0,Unidade da Federação,12,Acre,Parte 1 - Identificação e Controle
+4,OK,UF,A0,Unidade da Federação,13,Amazonas,Parte 1 - Identificação e Controle
+5,OK,UF,A0,Unidade da Federação,14,Roraima,Parte 1 - Identificação e Controle
+6,OK,UF,A0,Unidade da Federação,15,Pará,Parte 1 - Identificação e Controle
+7,OK,UF,A0,Unidade da Federação,16,Amapá,Parte 1 - Identificação e Controle
+8,OK,UF,A0,Unidade da Federação,17,Tocantins,Parte 1 - Identificação e Controle
+9,OK,UF,A0,Unidade da Federação,21,Maranhão,Parte 1 - Identificação e Controle
+10,OK,UF,A0,Unidade da Federação,22,Piauí,Parte 1 - Identificação e Controle
+11,OK,UF,A0,Unidade da Federação,23,Ceará,Parte 1 - Identificação e Controle
+12,OK,UF,A0,Unidade da Federação,24,Rio Grande do Norte,Parte 1 - Identificação e Controle
+13,OK,UF,A0,Unidade da Federação,25,Paraíba,Parte 1 - Identificação e Controle
+14,OK,UF,A0,Unidade da Federação,26,Pernambuco,Parte 1 - Identificação e Controle
+15,OK,UF,A0,Unidade da Federação,27,Alagoas,Parte 1 - Identificação e Controle
+16,OK,UF,A0,Unidade da Federação,28,Sergipe,Parte 1 - Identificação e Controle
+17,OK,UF,A0,Unidade da Federação,29,Bahia,Parte 1 - Identificação e Controle
+18,OK,UF,A0,Unidade da Federação,31,Minas Gerais,Parte 1 - Identificação e Controle
+19,OK,UF,A0,Unidade da Federação,32,Espírito Santo,Parte 1 - Identificação e Controle
+20,OK,UF,A0,Unidade da Federação,33,Rio de Janeiro,Parte 1 - Identificação e Controle
+21,OK,UF,A0,Unidade da Federação,35,São Paulo,Parte 1 - Identificação e Controle
+22,OK,UF,A0,Unidade da Federação,41,Paraná,Parte 1 - Identificação e Controle
+23,OK,UF,A0,Unidade da Federação,42,Santa Catarina,Parte 1 - Identificação e Controle
+24,OK,UF,A0,Unidade da Federação,43,Rio Grande do Sul,Parte 1 - Identificação e Controle
+25,OK,UF,A0,Unidade da Federação,50,Mato Grosso do Sul,Parte 1 - Identificação e Controle
+26,OK,UF,A0,Unidade da Federação,51,Mato Grosso,Parte 1 - Identificação e Controle
+27,OK,UF,A0,Unidade da Federação,52,Goiás,Parte 1 - Identificação e Controle
+28,OK,UF,A0,Unidade da Federação,53,Distrito Federal,Parte 1 - Identificação e Controle
+29,OK,CAPITAL,A0,Capital,11,Município de Porto Velho (RO),Parte 1 - Identificação e Controle
+30,OK,CAPITAL,A0,Capital,12,Município de Rio Branco (AC),Parte 1 - Identificação e Controle
+31,OK,CAPITAL,A0,Capital,13,Município de Manaus (AM),Parte 1 - Identificação e Controle
+32,OK,CAPITAL,A0,Capital,14,Município de Boa Vista (RR),Parte 1 - Identificação e Controle
+33,OK,CAPITAL,A0,Capital,15,Município de Belém (PA),Parte 1 - Identificação e Controle
+34,OK,CAPITAL,A0,Capital,16,Município de Macapá (AP),Parte 1 - Identificação e Controle
+35,OK,CAPITAL,A0,Capital,17,Município de Palmas (TO),Parte 1 - Identificação e Controle
+36,OK,CAPITAL,A0,Capital,21,Município de São Luís (MA),Parte 1 - Identificação e Controle
+37,OK,CAPITAL,A0,Capital,22,Município de Teresina (PI),Parte 1 - Identificação e Controle
+38,OK,CAPITAL,A0,Capital,23,Município de Fortaleza (CE),Parte 1 - Identificação e Controle
+39,OK,CAPITAL,A0,Capital,24,Município de Natal (RN),Parte 1 - Identificação e Controle
+40,OK,CAPITAL,A0,Capital,25,Município de João Pessoa (PB),Parte 1 - Identificação e Controle
+41,OK,CAPITAL,A0,Capital,26,Município de Recife (PE),Parte 1 - Identificação e Controle
+42,OK,CAPITAL,A0,Capital,27,Município de Maceió (AL),Parte 1 - Identificação e Controle
+43,OK,CAPITAL,A0,Capital,28,Município de Aracaju (SE),Parte 1 - Identificação e Controle
+44,OK,CAPITAL,A0,Capital,29,Município de Salvador (BA),Parte 1 - Identificação e Controle
+45,OK,CAPITAL,A0,Capital,31,Município de Belo Horizonte (MG),Parte 1 - Identificação e Controle
+46,OK,CAPITAL,A0,Capital,32,Município de Vitória (ES),Parte 1 - Identificação e Controle
+47,OK,CAPITAL,A0,Capital,33,Município de Rio de Janeiro (RJ),Parte 1 - Identificação e Controle
+48,OK,CAPITAL,A0,Capital,35,Município de São Paulo (SP),Parte 1 - Identificação e Controle
+49,OK,CAPITAL,A0,Capital,41,Município de Curitiba (PR),Parte 1 - Identificação e Controle
+50,OK,CAPITAL,A0,Capital,42,Município de Florianópolis (SC),Parte 1 - Identificação e Controle
+51,OK,CAPITAL,A0,Capital,43,Município de Porto Alegre (RS),Parte 1 - Identificação e Controle
+52,OK,CAPITAL,A0,Capital,50,Município de Campo Grande (MS),Parte 1 - Identificação e Controle
+53,OK,CAPITAL,A0,Capital,51,Município de Cuiabá (MT),Parte 1 - Identificação e Controle
+54,OK,CAPITAL,A0,Capital,52,Município de Goiânia (GO),Parte 1 - Identificação e Controle
+55,OK,CAPITAL,A0,Capital,53,Município de Brasília (DF),Parte 1 - Identificação e Controle
+79,OK,V1013,A0,Mês da pesquisa,01 a 12,Mês da pesquisa (janeiro a dezembro),Parte 1 - Identificação e Controle
+83,OK,V1022,A0,Situação do domicílio,1,Urbana,Parte 1 - Identificação e Controle
+84,OK,V1022,A0,Situação do domicílio,2,Rural,Parte 1 - Identificação e Controle
+118,OK,A002,A2,Idade do morador,000 a 130,Idade (em anos),Parte A - Características gerais dos moradores
+119,OK,A003,A3,Sexo,1,Homem,Parte A - Características gerais dos moradores
+120,OK,A003,A3,Sexo,2,Mulher,Parte A - Características gerais dos moradores
+127,OK,A005,A5,Escolaridade,1,Sem instrução,Parte A - Características gerais dos moradores
+128,OK,A005,A5,Escolaridade,2,Fundamental incompleto,Parte A - Características gerais dos moradores
+129,OK,A005,A5,Escolaridade,3,Fundamental completa,Parte A - Características gerais dos moradores
+130,OK,A005,A5,Escolaridade,4,Médio incompleto,Parte A - Características gerais dos moradores
+131,OK,A005,A5,Escolaridade,5,Médio completo,Parte A - Características gerais dos moradores
+132,OK,A005,A5,Escolaridade,6,Superior incompleto,Parte A - Características gerais dos moradores
+133,OK,A005,A5,Escolaridade,7,Superior completo,Parte A - Características gerais dos moradores
+134,OK,A005,A5,Escolaridade,8,"Pós-graduação, mestrado ou doutorado",Parte A - Características gerais dos moradores
+170,OK,B0011,B1,Na semana passada teve febre?,1,Sim,Parte B - COVID19 - Todos os moradores
+171,OK,B0011,B1,Na semana passada teve febre?,2,Não,Parte B - COVID19 - Todos os moradores
+172,OK,B0011,B1,Na semana passada teve febre?,3,Não sabe,Parte B - COVID19 - Todos os moradores
+173,OK,B0011,B1,Na semana passada teve febre?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+174,OK,B0012,B1,Na semana passada teve tosse?,1,Sim,Parte B - COVID19 - Todos os moradores
+175,OK,B0012,B1,Na semana passada teve tosse?,2,Não,Parte B - COVID19 - Todos os moradores
+176,OK,B0012,B1,Na semana passada teve tosse?,3,Não sabe,Parte B - COVID19 - Todos os moradores
+177,OK,B0012,B1,Na semana passada teve tosse?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+182,OK,B0014,B1,Na semana passada teve dificuldade para respirar?,1,Sim,Parte B - COVID19 - Todos os moradores
+183,OK,B0014,B1,Na semana passada teve dificuldade para respirar?,2,Não,Parte B - COVID19 - Todos os moradores
+184,OK,B0014,B1,Na semana passada teve dificuldade para respirar?,3,Não sabe,Parte B - COVID19 - Todos os moradores
+185,OK,B0014,B1,Na semana passada teve dificuldade para respirar?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+210,OK,B00111,B1,Na semana passada teve perda de cheiro ou sabor?,1,Sim,Parte B - COVID19 - Todos os moradores
+211,OK,B00111,B1,Na semana passada teve perda de cheiro ou sabor?,2,Não,Parte B - COVID19 - Todos os moradores
+212,OK,B00111,B1,Na semana passada teve perda de cheiro ou sabor?,3,Não sabe,Parte B - COVID19 - Todos os moradores
+213,OK,B00111,B1,Na semana passada teve perda de cheiro ou sabor?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+222,OK,B002,B2,"Por causa disso, foi a algum estabelecimento de saúde?",1,Sim,Parte B - COVID19 - Todos os moradores
+223,OK,B002,B2,"Por causa disso, foi a algum estabelecimento de saúde?",2,Não,Parte B - COVID19 - Todos os moradores
+224,OK,B002,B2,"Por causa disso, foi a algum estabelecimento de saúde?",9,Ignorado,Parte B - COVID19 - Todos os moradores
+225,OK,B002,B2,"Por causa disso, foi a algum estabelecimento de saúde?",,Não aplicável,Parte B - COVID19 - Todos os moradores
+226,OK,B0031,B3,Providência tomada para recuperar dos sintomas foi ficar em casa,1,Sim,Parte B - COVID19 - Todos os moradores
+227,OK,B0031,B3,Providência tomada para recuperar dos sintomas foi ficar em casa,2,Não,Parte B - COVID19 - Todos os moradores
+228,OK,B0031,B3,Providência tomada para recuperar dos sintomas foi ficar em casa,9,Ignorado,Parte B - COVID19 - Todos os moradores
+229,OK,B0031,B3,Providência tomada para recuperar dos sintomas foi ficar em casa,,Não aplicável,Parte B - COVID19 - Todos os moradores
+290,OK,B008,B8,O(A) Sr(a) fez algum teste para saber se estava infectado(a) pelo coronavírus?,1,Sim,Parte B - COVID19 - Todos os moradores
+293,OK,B009A,B9A,Fez o exame coletado com cotonete na boca e/ou nariz (SWAB)?,1,Sim,Parte B - COVID19 - Todos os moradores
+294,OK,B009A,B9A,Fez o exame coletado com cotonete na boca e/ou nariz (SWAB)?,2,Não,Parte B - COVID19 - Todos os moradores
+295,OK,B009A,B9A,Fez o exame coletado com cotonete na boca e/ou nariz (SWAB)?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+296,OK,B009B,B9B,Qual o resultado?,1,Positivo,Parte B - COVID19 - Todos os moradores
+297,OK,B009B,B9B,Qual o resultado?,2,Negativo,Parte B - COVID19 - Todos os moradores
+298,OK,B009B,B9B,Qual o resultado?,3,Inconclusivo,Parte B - COVID19 - Todos os moradores
+299,OK,B009B,B9B,Qual o resultado?,4,Ainda não recebeu o resultado,Parte B - COVID19 - Todos os moradores
+300,OK,B009B,B9B,Qual o resultado?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+301,OK,B009B,B9B,Qual o resultado?,,Não aplicável,Parte B - COVID19 - Todos os moradores
+302,OK,B009C,B9C,Fez o exame de coleta de sangue através de furo no dedo?,1,Sim,Parte B - COVID19 - Todos os moradores
+303,OK,B009C,B9C,Fez o exame de coleta de sangue através de furo no dedo?,2,Não,Parte B - COVID19 - Todos os moradores
+304,OK,B009C,B9C,Fez o exame de coleta de sangue através de furo no dedo?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+305,OK,B009D,B9D,Qual o resultado?,1,Positivo,Parte B - COVID19 - Todos os moradores
+306,OK,B009D,B9D,Qual o resultado?,2,Negativo,Parte B - COVID19 - Todos os moradores
+307,OK,B009D,B9D,Qual o resultado?,3,Inconclusivo,Parte B - COVID19 - Todos os moradores
+308,OK,B009D,B9D,Qual o resultado?,4,Ainda não recebeu o resultado,Parte B - COVID19 - Todos os moradores
+309,OK,B009D,B9D,Qual o resultado?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+310,OK,B009D,B9D,Qual o resultado?,,Não aplicável,Parte B - COVID19 - Todos os moradores
+311,OK,B009E,B9E,Fez o exame de coleta de sangue através da veia da braço?,1,Sim,Parte B - COVID19 - Todos os moradores
+312,OK,B009E,B9E,Fez o exame de coleta de sangue através da veia da braço?,2,Não,Parte B - COVID19 - Todos os moradores
+313,OK,B009E,B9E,Fez o exame de coleta de sangue através da veia da braço?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+314,OK,B009F,B9F,Qual o resultado?,1,Positivo,Parte B - COVID19 - Todos os moradores
+315,OK,B009F,B9F,Qual o resultado?,2,Negativo,Parte B - COVID19 - Todos os moradores
+316,OK,B009F,B9F,Qual o resultado?,3,Inconclusivo,Parte B - COVID19 - Todos os moradores
+317,OK,B009F,B9F,Qual o resultado?,4,Ainda não recebeu o resultado,Parte B - COVID19 - Todos os moradores
+318,OK,B009F,B9F,Qual o resultado?,9,Ignorado,Parte B - COVID19 - Todos os moradores
+319,OK,B009F,B9F,Qual o resultado?,,Não aplicável,Parte B - COVID19 - Todos os moradores
+338,OK,B011,B11,"Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas?",1,"Não fez restrição, levou vida normal como antes da pandemia",Parte B - COVID19 - Todos os moradores
+339,OK,B011,B11,"Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas?",2,"Reduziu o contato com as pessoas, mas continuou saindo de casa para trabalho ou atividades não essenciais e/ou recebendo visitas",Parte B - COVID19 - Todos os moradores
+340,OK,B011,B11,"Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas?",3,Ficou em casa e só saiu em caso de necessidade básica,Parte B - COVID19 - Todos os moradores
+341,OK,B011,B11,"Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas?",4,Ficou rigorosamente em casa,Parte B - COVID19 - Todos os moradores
+342,OK,B011,B11,"Qual foi o resultado do teste?  Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas?",9,Ignorado,Parte B - COVID19 - Todos os moradores
+489,OK,C01012,C10,Valor em dinheiro,valor em reais,R$,Parte C - Características de trabalho das pessoas de 14 anos ou mais de idade
+490,OK,C01012,C10,Valor em dinheiro,,Não aplicável,Parte C - Características de trabalho das pessoas de 14 anos ou mais de idade
+596,OK,E001,E1,Durante o período da pandemia alguém deste domicílio solicitou algum empréstimo?,1,"Sim, e pelo menos um morador conseguiu",Parte E - Empréstimos
+597,OK,E001,E1,Durante o período da pandemia alguém deste domicílio solicitou algum empréstimo?,2,"Sim, mas nenhum morador conseguiu",Parte E - Empréstimos
+598,OK,E001,E1,Durante o período da pandemia alguém deste domicílio solicitou algum empréstimo?,3,Não solicitou,Parte E - Empréstimos
