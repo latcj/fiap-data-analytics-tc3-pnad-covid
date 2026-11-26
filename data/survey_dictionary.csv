@@ -1,0 +1,132 @@
+id,selection,source_variable,question_group,question,response_code,response_label,section
+1,OK,Ano,A0,Reference year,0,N/A,Part 1 - Identification and control
+2,OK,UF,A0,Brazilian state or federal district,11,Rondônia,Part 1 - Identification and control
+3,OK,UF,A0,Brazilian state or federal district,12,Acre,Part 1 - Identification and control
+4,OK,UF,A0,Brazilian state or federal district,13,Amazonas,Part 1 - Identification and control
+5,OK,UF,A0,Brazilian state or federal district,14,Roraima,Part 1 - Identification and control
+6,OK,UF,A0,Brazilian state or federal district,15,Pará,Part 1 - Identification and control
+7,OK,UF,A0,Brazilian state or federal district,16,Amapá,Part 1 - Identification and control
+8,OK,UF,A0,Brazilian state or federal district,17,Tocantins,Part 1 - Identification and control
+9,OK,UF,A0,Brazilian state or federal district,21,Maranhão,Part 1 - Identification and control
+10,OK,UF,A0,Brazilian state or federal district,22,Piauí,Part 1 - Identification and control
+11,OK,UF,A0,Brazilian state or federal district,23,Ceará,Part 1 - Identification and control
+12,OK,UF,A0,Brazilian state or federal district,24,Rio Grande do Norte,Part 1 - Identification and control
+13,OK,UF,A0,Brazilian state or federal district,25,Paraíba,Part 1 - Identification and control
+14,OK,UF,A0,Brazilian state or federal district,26,Pernambuco,Part 1 - Identification and control
+15,OK,UF,A0,Brazilian state or federal district,27,Alagoas,Part 1 - Identification and control
+16,OK,UF,A0,Brazilian state or federal district,28,Sergipe,Part 1 - Identification and control
+17,OK,UF,A0,Brazilian state or federal district,29,Bahia,Part 1 - Identification and control
+18,OK,UF,A0,Brazilian state or federal district,31,Minas Gerais,Part 1 - Identification and control
+19,OK,UF,A0,Brazilian state or federal district,32,Espírito Santo,Part 1 - Identification and control
+20,OK,UF,A0,Brazilian state or federal district,33,Rio de Janeiro,Part 1 - Identification and control
+21,OK,UF,A0,Brazilian state or federal district,35,São Paulo,Part 1 - Identification and control
+22,OK,UF,A0,Brazilian state or federal district,41,Paraná,Part 1 - Identification and control
+23,OK,UF,A0,Brazilian state or federal district,42,Santa Catarina,Part 1 - Identification and control
+24,OK,UF,A0,Brazilian state or federal district,43,Rio Grande do Sul,Part 1 - Identification and control
+25,OK,UF,A0,Brazilian state or federal district,50,Mato Grosso do Sul,Part 1 - Identification and control
+26,OK,UF,A0,Brazilian state or federal district,51,Mato Grosso,Part 1 - Identification and control
+27,OK,UF,A0,Brazilian state or federal district,52,Goiás,Part 1 - Identification and control
+28,OK,UF,A0,Brazilian state or federal district,53,Federal District,Part 1 - Identification and control
+29,OK,CAPITAL,A0,State capital,11,Porto Velho (RO),Part 1 - Identification and control
+30,OK,CAPITAL,A0,State capital,12,Rio Branco (AC),Part 1 - Identification and control
+31,OK,CAPITAL,A0,State capital,13,Manaus (AM),Part 1 - Identification and control
+32,OK,CAPITAL,A0,State capital,14,Boa Vista (RR),Part 1 - Identification and control
+33,OK,CAPITAL,A0,State capital,15,Belém (PA),Part 1 - Identification and control
+34,OK,CAPITAL,A0,State capital,16,Macapá (AP),Part 1 - Identification and control
+35,OK,CAPITAL,A0,State capital,17,Palmas (TO),Part 1 - Identification and control
+36,OK,CAPITAL,A0,State capital,21,São Luís (MA),Part 1 - Identification and control
+37,OK,CAPITAL,A0,State capital,22,Teresina (PI),Part 1 - Identification and control
+38,OK,CAPITAL,A0,State capital,23,Fortaleza (CE),Part 1 - Identification and control
+39,OK,CAPITAL,A0,State capital,24,Natal (RN),Part 1 - Identification and control
+40,OK,CAPITAL,A0,State capital,25,João Pessoa (PB),Part 1 - Identification and control
+41,OK,CAPITAL,A0,State capital,26,Recife (PE),Part 1 - Identification and control
+42,OK,CAPITAL,A0,State capital,27,Maceió (AL),Part 1 - Identification and control
+43,OK,CAPITAL,A0,State capital,28,Aracaju (SE),Part 1 - Identification and control
+44,OK,CAPITAL,A0,State capital,29,Salvador (BA),Part 1 - Identification and control
+45,OK,CAPITAL,A0,State capital,31,Belo Horizonte (MG),Part 1 - Identification and control
+46,OK,CAPITAL,A0,State capital,32,Vitória (ES),Part 1 - Identification and control
+47,OK,CAPITAL,A0,State capital,33,Rio de Janeiro (RJ),Part 1 - Identification and control
+48,OK,CAPITAL,A0,State capital,35,São Paulo (SP),Part 1 - Identification and control
+49,OK,CAPITAL,A0,State capital,41,Curitiba (PR),Part 1 - Identification and control
+50,OK,CAPITAL,A0,State capital,42,Florianópolis (SC),Part 1 - Identification and control
+51,OK,CAPITAL,A0,State capital,43,Porto Alegre (RS),Part 1 - Identification and control
+52,OK,CAPITAL,A0,State capital,50,Campo Grande (MS),Part 1 - Identification and control
+53,OK,CAPITAL,A0,State capital,51,Cuiabá (MT),Part 1 - Identification and control
+54,OK,CAPITAL,A0,State capital,52,Goiânia (GO),Part 1 - Identification and control
+55,OK,CAPITAL,A0,State capital,53,Brasília (DF),Part 1 - Identification and control
+79,OK,V1013,A0,Survey month,01 a 12,Survey month (January to December),Part 1 - Identification and control
+83,OK,V1022,A0,Urban or rural residence,1,Urban,Part 1 - Identification and control
+84,OK,V1022,A0,Urban or rural residence,2,Rural,Part 1 - Identification and control
+118,OK,A002,A2,Age of the household member,000 a 130,Age in years,Part A - Household member characteristics
+119,OK,A003,A3,Sex,1,Male,Part A - Household member characteristics
+120,OK,A003,A3,Sex,2,Female,Part A - Household member characteristics
+127,OK,A005,A5,Highest level of education,1,No formal schooling,Part A - Household member characteristics
+128,OK,A005,A5,Highest level of education,2,Incomplete basic education,Part A - Household member characteristics
+129,OK,A005,A5,Highest level of education,3,Completed basic education,Part A - Household member characteristics
+130,OK,A005,A5,Highest level of education,4,Incomplete secondary education,Part A - Household member characteristics
+131,OK,A005,A5,Highest level of education,5,Completed secondary education,Part A - Household member characteristics
+132,OK,A005,A5,Highest level of education,6,Incomplete higher education,Part A - Household member characteristics
+133,OK,A005,A5,Highest level of education,7,Completed higher education,Part A - Household member characteristics
+134,OK,A005,A5,Highest level of education,8,Postgraduate education,Part A - Household member characteristics
+170,OK,B0011,B1,Had a fever last week?,1,Yes,"Part B - COVID-19, all household members"
+171,OK,B0011,B1,Had a fever last week?,2,No,"Part B - COVID-19, all household members"
+172,OK,B0011,B1,Had a fever last week?,3,Does not know,"Part B - COVID-19, all household members"
+173,OK,B0011,B1,Had a fever last week?,9,Unreported,"Part B - COVID-19, all household members"
+174,OK,B0012,B1,Had a cough last week?,1,Yes,"Part B - COVID-19, all household members"
+175,OK,B0012,B1,Had a cough last week?,2,No,"Part B - COVID-19, all household members"
+176,OK,B0012,B1,Had a cough last week?,3,Does not know,"Part B - COVID-19, all household members"
+177,OK,B0012,B1,Had a cough last week?,9,Unreported,"Part B - COVID-19, all household members"
+182,OK,B0014,B1,Had difficulty breathing last week?,1,Yes,"Part B - COVID-19, all household members"
+183,OK,B0014,B1,Had difficulty breathing last week?,2,No,"Part B - COVID-19, all household members"
+184,OK,B0014,B1,Had difficulty breathing last week?,3,Does not know,"Part B - COVID-19, all household members"
+185,OK,B0014,B1,Had difficulty breathing last week?,9,Unreported,"Part B - COVID-19, all household members"
+210,OK,B00111,B1,Lost the sense of smell or taste last week?,1,Yes,"Part B - COVID-19, all household members"
+211,OK,B00111,B1,Lost the sense of smell or taste last week?,2,No,"Part B - COVID-19, all household members"
+212,OK,B00111,B1,Lost the sense of smell or taste last week?,3,Does not know,"Part B - COVID-19, all household members"
+213,OK,B00111,B1,Lost the sense of smell or taste last week?,9,Unreported,"Part B - COVID-19, all household members"
+222,OK,B002,B2,Visited a healthcare facility because of symptoms?,1,Yes,"Part B - COVID-19, all household members"
+223,OK,B002,B2,Visited a healthcare facility because of symptoms?,2,No,"Part B - COVID-19, all household members"
+224,OK,B002,B2,Visited a healthcare facility because of symptoms?,9,Unreported,"Part B - COVID-19, all household members"
+225,OK,B002,B2,Visited a healthcare facility because of symptoms?,,Not applicable,"Part B - COVID-19, all household members"
+226,OK,B0031,B3,Stayed home to recover from symptoms?,1,Yes,"Part B - COVID-19, all household members"
+227,OK,B0031,B3,Stayed home to recover from symptoms?,2,No,"Part B - COVID-19, all household members"
+228,OK,B0031,B3,Stayed home to recover from symptoms?,9,Unreported,"Part B - COVID-19, all household members"
+229,OK,B0031,B3,Stayed home to recover from symptoms?,,Not applicable,"Part B - COVID-19, all household members"
+290,OK,B008,B8,Had a test for coronavirus infection?,1,Yes,"Part B - COVID-19, all household members"
+293,OK,B009A,B9A,Had an oral or nasal swab test?,1,Yes,"Part B - COVID-19, all household members"
+294,OK,B009A,B9A,Had an oral or nasal swab test?,2,No,"Part B - COVID-19, all household members"
+295,OK,B009A,B9A,Had an oral or nasal swab test?,9,Unreported,"Part B - COVID-19, all household members"
+296,OK,B009B,B9B,What was the swab test result?,1,Positive,"Part B - COVID-19, all household members"
+297,OK,B009B,B9B,What was the swab test result?,2,Negative,"Part B - COVID-19, all household members"
+298,OK,B009B,B9B,What was the swab test result?,3,Inconclusive,"Part B - COVID-19, all household members"
+299,OK,B009B,B9B,What was the swab test result?,4,Awaiting result,"Part B - COVID-19, all household members"
+300,OK,B009B,B9B,What was the swab test result?,9,Unreported,"Part B - COVID-19, all household members"
+301,OK,B009B,B9B,What was the swab test result?,,Not applicable,"Part B - COVID-19, all household members"
+302,OK,B009C,B9C,Had a finger-prick blood test?,1,Yes,"Part B - COVID-19, all household members"
+303,OK,B009C,B9C,Had a finger-prick blood test?,2,No,"Part B - COVID-19, all household members"
+304,OK,B009C,B9C,Had a finger-prick blood test?,9,Unreported,"Part B - COVID-19, all household members"
+305,OK,B009D,B9D,What was the finger-prick test result?,1,Positive,"Part B - COVID-19, all household members"
+306,OK,B009D,B9D,What was the finger-prick test result?,2,Negative,"Part B - COVID-19, all household members"
+307,OK,B009D,B9D,What was the finger-prick test result?,3,Inconclusive,"Part B - COVID-19, all household members"
+308,OK,B009D,B9D,What was the finger-prick test result?,4,Awaiting result,"Part B - COVID-19, all household members"
+309,OK,B009D,B9D,What was the finger-prick test result?,9,Unreported,"Part B - COVID-19, all household members"
+310,OK,B009D,B9D,What was the finger-prick test result?,,Not applicable,"Part B - COVID-19, all household members"
+311,OK,B009E,B9E,Had a venous blood test?,1,Yes,"Part B - COVID-19, all household members"
+312,OK,B009E,B9E,Had a venous blood test?,2,No,"Part B - COVID-19, all household members"
+313,OK,B009E,B9E,Had a venous blood test?,9,Unreported,"Part B - COVID-19, all household members"
+314,OK,B009F,B9F,What was the venous blood test result?,1,Positive,"Part B - COVID-19, all household members"
+315,OK,B009F,B9F,What was the venous blood test result?,2,Negative,"Part B - COVID-19, all household members"
+316,OK,B009F,B9F,What was the venous blood test result?,3,Inconclusive,"Part B - COVID-19, all household members"
+317,OK,B009F,B9F,What was the venous blood test result?,4,Awaiting result,"Part B - COVID-19, all household members"
+318,OK,B009F,B9F,What was the venous blood test result?,9,Unreported,"Part B - COVID-19, all household members"
+319,OK,B009F,B9F,What was the venous blood test result?,,Not applicable,"Part B - COVID-19, all household members"
+338,OK,B011,B11,To what extent did you limit contact with other people last week?,1,No change in contact,"Part B - COVID-19, all household members"
+339,OK,B011,B11,To what extent did you limit contact with other people last week?,2,Reduced contact but still went out or received visitors,"Part B - COVID-19, all household members"
+340,OK,B011,B11,To what extent did you limit contact with other people last week?,3,Left home only for basic needs,"Part B - COVID-19, all household members"
+341,OK,B011,B11,To what extent did you limit contact with other people last week?,4,Stayed home at all times,"Part B - COVID-19, all household members"
+342,OK,B011,B11,To what extent did you limit contact with other people last week?,9,Unreported,"Part B - COVID-19, all household members"
+489,OK,C01012,C10,Cash earnings in Brazilian reais,valor em reais,BRL,"Part C - Employment, household members aged 14 or older"
+490,OK,C01012,C10,Cash earnings in Brazilian reais,,Not applicable,"Part C - Employment, household members aged 14 or older"
+596,OK,E001,E1,Did anyone in the household apply for a loan during the pandemic?,1,Applied and at least one household member received a loan,Part E - Loans
+597,OK,E001,E1,Did anyone in the household apply for a loan during the pandemic?,2,Applied but no household member received a loan,Part E - Loans
+598,OK,E001,E1,Did anyone in the household apply for a loan during the pandemic?,3,Did not apply,Part E - Loans

@@ -1,55 +1,45 @@
-# Tech Challenge 3 - PNAD COVID-19
+# Tech Challenge 3 · Brazil’s PNAD COVID-19 household survey
 
-Projeto da Fase 3 da pós-graduação em Data Analytics da FIAP. A entrega combina engenharia de dados no Google Cloud e análise exploratória da PNAD COVID-19, pesquisa domiciliar do IBGE. O relatório reúne os gráficos, e o dashboard permite explorar as respostas no Power BI. [Relatório em HTML](docs/relatorio_pnad_covid.html) · [Dashboard em Power BI](dashboard/analise_exploratoria.pbix)
+How did people who reported positive and negative COVID-19 tests describe their symptoms, distancing, healthcare use and earnings? This project combines a Google Cloud data pipeline with an exploratory analysis of the household survey conducted by Brazil’s national statistics institute, IBGE. [Download the illustrated report](docs/pnad-covid19-report.html?raw=1) · [Download the Power BI dashboard](dashboard/pnad-covid19.pbix?raw=1)
 
-## Objetivo
+## Findings
 
-Investigar como sintomas, isolamento social, procura por atendimento, escolaridade e renda se distribuem entre os registros com resultado de teste em agosto, setembro e outubro de 2020. O notebook considera positivo o registro com pelo menos um resultado positivo nos exames de swab, sangue do dedo ou sangue da veia.
+From August through October 2020, **111,496 interviews** reported a positive or negative swab, finger-prick or venous blood test. **28,109** reported at least one positive result.
 
-## Resultados
-
-| Registros com resultado positivo | Agosto | Setembro | Outubro |
+| Interviews reporting a positive result | August | September | October |
 | --- | ---: | ---: | ---: |
-| Mulheres | 4.229 | 5.276 | 6.062 |
-| Homens | 3.410 | 4.243 | 4.889 |
-| **Total** | **7.639** | **9.519** | **10.951** |
+| Female | 4,229 | 5,276 | 6,062 |
+| Male | 3,410 | 4,243 | 4,889 |
+| **Total** | **7,639** | **9,519** | **10,951** |
 
-O número de respostas com algum exame positivo cresceu ao longo dos três meses. Os valores são contagens de entrevistas, sem aplicação dos pesos amostrais. A mesma pessoa pode aparecer em mais de um mês. O notebook também compara a frequência de sintomas e os níveis de isolamento entre os grupos com resultado positivo e negativo. [Notebook de análise com gráficos](notebooks/tech_challenge_3.ipynb)
+These are unweighted interview counts. Respondents could appear in multiple months. The analysis also compares reported symptoms, healthcare use, distancing, earnings and education. Each chart explains its denominator. [Analysis notebook](notebooks/tech_challenge_3.ipynb)
 
-## Tecnologias e estrutura
+## Explore the project
 
-O pipeline usa Cloud Storage, PySpark no Dataproc e BigQuery. A análise usa Python, pandas e Matplotlib. O dashboard foi desenvolvido no Power BI Desktop.
-
-| Arquivo | Conteúdo |
+| File | What it contains |
 | --- | --- |
-| [notebooks/tech_challenge_3.ipynb](notebooks/tech_challenge_3.ipynb) | Análise de sintomas, isolamento, atendimento, renda e escolaridade |
-| [notebooks/pnad_covid_pipeline.ipynb](notebooks/pnad_covid_pipeline.ipynb) | Ingestão, tradução de códigos e carga das tabelas de pesquisa e dicionário |
-| [dashboard/analise_exploratoria.pbix](dashboard/analise_exploratoria.pbix) | Dashboard com seis páginas e modelo de dados incorporado |
-| [data/dicionario_selecionado.csv](data/dicionario_selecionado.csv) | Dicionário de variáveis e categorias recuperado do modelo da entrega |
-| [docs/relatorio_pnad_covid.html](docs/relatorio_pnad_covid.html) | Relatório que pode ser baixado e aberto diretamente no navegador |
-| [docs/arquitetura.png](docs/arquitetura.png) | Diagrama de arquitetura da entrega |
+| [Power BI dashboard](dashboard/pnad-covid19.pbix) | Six pages covering demographics, healthcare, household finances, testing, symptoms and interview months |
+| [Survey snapshot](data/survey.parquet) | English analytical fields and responses for 2,650,459 interview records from May through November 2020 |
+| [Survey dictionary](data/survey_dictionary.csv) | English questions and response labels with the original IBGE variable and category codes |
+| [Data pipeline](notebooks/pnad_covid_pipeline.ipynb) | Spark transformations and BigQuery loading steps |
+| [Architecture diagram](docs/architecture.png) | How the source files, cloud storage, processing and reporting fit together |
 
-## Execução local
+Open the downloaded dashboard in Power BI Desktop. Its imported tables work offline. Refresh uses the public English snapshot and dictionary from this repository. The original report-wide filters select August–October and a positive or negative **finger-prick** result. The notebook accepts a valid result from **any of the three tests**, so its count covers a broader group.
 
-Para consultar o dashboard, baixe o arquivo PBIX e abra-o no Power BI Desktop. As visualizações usam as tabelas já carregadas. Para atualizar o modelo a partir de outro projeto, ajuste a origem das duas consultas no editor do Power Query e autentique-se no BigQuery.
+## Reproduce the charts locally
 
-Para reproduzir os gráficos em Python, use o modelo incorporado ao PBIX. Na raiz do repositório, execute em PowerShell com Python 3.12:
+In an activated Python 3.12 environment, run the commands below from the repository root. Choose **Run → Run All Cells** in JupyterLab. The default input is the included Parquet snapshot.
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m jupyterlab notebooks/tech_challenge_3.ipynb
+```shell
+python -m pip install -r requirements.txt
+python -m jupyterlab notebooks/tech_challenge_3.ipynb
 ```
 
-No JupyterLab, execute as células em ordem. O notebook lê as colunas usadas na análise diretamente da tabela `f_pesquisa_covid` do dashboard.
+## Reproduce the Google Cloud pipeline
 
-## Reprodução do pipeline no Google Cloud
+1. Create a dedicated Cloud Storage bucket and BigQuery dataset. In Dataproc Spark Connect with the Spark–BigQuery connector, set `PNAD_GCS_BUCKET` to the bucket name and `PNAD_BQ_DATASET` to `project.dataset`.
+2. Extract the three monthly source CSVs for August–October 2020 and upload them to `gs://YOUR_BUCKET/pnad/raw/survey/`. Upload this repository’s English dictionary to `gs://YOUR_BUCKET/pnad/raw/dictionary/`. [IBGE monthly microdata](https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_PNAD_COVID19/Microdados/Dados/)
+3. Run the pipeline cells in order with a cloud identity that can read and write these destinations. The notebook replaces its bronze and silver outputs and the BigQuery tables `survey` and `survey_dictionary`.
+4. To read your resulting BigQuery table from the analysis notebook, install `google-cloud-bigquery[pandas]`, configure Application Default Credentials and set `PNAD_BQ_DATASET` before starting JupyterLab.
 
-1. Crie um bucket e um dataset do BigQuery dedicados ao exercício. No ambiente Dataproc com Spark Connect e conector Spark–BigQuery, defina `PNAD_GCS_BUCKET` como o nome do bucket e `PNAD_BQ_DATASET` no formato `projeto.dataset`.
-2. Descompacte os microdados mensais de agosto, setembro e outubro de 2020 e envie os três CSVs para `gs://SEU_BUCKET/pnad/raw/pesquisa/`. Envie o dicionário deste repositório para `gs://SEU_BUCKET/pnad/raw/dicionario/`. [Microdados mensais do IBGE](https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_PNAD_COVID19/Microdados/Dados/)
-3. Execute o notebook de pipeline em ordem com uma identidade que tenha acesso de leitura e escrita ao bucket e ao dataset. Ele substitui os dados de bronze e silver nos prefixos de saída e as tabelas `f_pesquisa_covid` e `d_dicionario_covid` no BigQuery.
-4. Para executar a análise sobre sua tabela do BigQuery, instale `google-cloud-bigquery[pandas]` no ambiente local, configure Application Default Credentials e defina `PNAD_BQ_DATASET` antes de iniciar o JupyterLab.
-
-## Autor
-
-Luiz Carvalho · Pós-graduação em Data Analytics, FIAP. [GitHub](https://github.com/latcj)
+Luiz Carvalho · FIAP postgraduate program in Data Analytics. [GitHub profile](https://github.com/latcj)
